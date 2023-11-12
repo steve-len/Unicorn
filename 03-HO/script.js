@@ -49,10 +49,8 @@ function main() {
                 if ("ek" === ran_surname.substring(ran_surname.length - 2)) {
                     ran_surname = ran_surname.substring(0, ran_surname.length - 2)  + "ková"
                 } else if ("a" === ran_surname.substring(ran_surname.length - 1)) {
-                    //ran_surname = array_surnames[Math.floor(Math.random() * array_surnames.length)]
                     ran_surname = ran_surname.substring(0, ran_surname.length - 1)  + "ová"
                 } else {
-                    //ran_surname = array_surnames[Math.floor(Math.random() * array_surnames.length)] + "ová"
                     ran_surname = ran_surname.substring(0, ran_surname.length)  + "ová"
                 }
             }
